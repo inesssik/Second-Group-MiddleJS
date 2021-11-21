@@ -4,6 +4,11 @@
     "id": 1,
     "name": "Denis",
     "surname": "Savchenko"
+    },
+    {
+      "id": 2,
+      "name": "Artem",
+      "surname": "Dzhemesiuk"
     }
   ]
 }
