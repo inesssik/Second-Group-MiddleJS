@@ -9,6 +9,11 @@
       "id": 2,
       "name": "Artem",
       "surname": "Dzhemesiuk"
+    },
+    {
+      "id": 3,
+      "name": "Ivan",
+      "surname": "Teplov"
     }
   ]
 }
