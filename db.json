@@ -9,6 +9,24 @@
       "id": 2,
       "name": "Artem",
       "surname": "Dzhemesiuk"
+    },
+    {
+      "id": 3,
+      "name": "Ivan",
+      "surname": "Teplov"
     }
+  ],
+  "products":[
+  {
+    "productName": "Xiaomi",
+    "productModel": "mi8",
+    "productPrice": "39999UAH"
+  },
+  {
+    "productName": "Amongus",
+    "productModel": "siuuu",
+    "productPrice": "4779999UAH"
+
+  }
   ]
 }
