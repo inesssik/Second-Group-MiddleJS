@@ -15,5 +15,12 @@
       "name": "Ivan",
       "surname": "Teplov"
     }
+  ],
+  "products":[
+  {
+    "productName": "Xiaomi",
+    "productModel": "mi8",
+    "productPrice": "39999UAH"
+  }
   ]
 }
