@@ -27,6 +27,11 @@
     "productModel": "siuuu",
     "productPrice": "4779999UAH"
 
+  },
+  {
+    "productName": "BMW",
+    "productModel": "i8",
+    "productPrice": "1200000UAH"
   }
   ]
 }
