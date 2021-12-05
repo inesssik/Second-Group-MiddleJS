@@ -1,0 +1,11 @@
+.products{
+    display: flex;
+}
+
+.product_item{
+    height: 100px;
+    width: 100px;
+
+    border-radius: 6px;
+    border: 1px solid black;
+}
