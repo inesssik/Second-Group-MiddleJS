@@ -1,11 +1,13 @@
 let url = 'https://my-json-server.typicode.com/inesssik/Second-Group-MiddleJS/db'
-let $productPrice = document.querySelector('.product_price')
-
+let $products_grid = document.querySelector('#products_grid')
 fetch(url).then(response => {
     return response.json()
 }).then(data => {
-    $productPrice.textContent = data.products[0].productPrice
+    for(let i = 0; i < data.products.length; i++){
+        $products_grid.innerHTML += `<div class='product_name'>${data.products[i].productName}</div>`
+    }
+{
+    
+}
 })
-
-
 

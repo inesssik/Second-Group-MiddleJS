@@ -4,17 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href='style.css' rel='stylesheet'>
-    <title>Document</title>
+    <title>Robocode Marketplace</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class='header'>RoboCode MarketPlace</header>
-        <div class="products">
-            <div class="product_item">
-                <p class='product_name'></p>
-                <p class='product_price'></p>
+    <header>
+        <h1>Robocode Marketplace</h1>
+        <div id="cart">
+            <button id="cart_button" onclick="openCart()">
+                <img src="img/cart.png" alt="cart">
+            </button>
+            <div id="cart_products" class="hide">
+                Cart is empty
             </div>
         </div>
+    </header>
+    <main>
+        <div id="products_grid">
+            
+        </div>
+    </main>
 </body>
 <script src="script.js" defer></script>
 </html>
