@@ -57,7 +57,8 @@ button {
 
 /* -----Cart----- */
 
-#cart-button {
+
+#cart_button {
     background: none;
     border: none;
     border-radius: 50%;
@@ -74,20 +75,20 @@ button {
     position: relative;
 }
 
-#cart-button img {
+#cart_button img {
     max-width: 32px;
     max-height: 32px;
 }
 
-#cart-button:hover {
+#cart_button:hover {
     background-color: rgb(170, 170, 255);
 }
 
-#cart-button.active {
+#cart_button.active {
     background-color: rgb(170, 255, 170);
 }
 
-#cart-products::before {
+#cart_products::before {
     content: '';
     border: transparent solid 16px;
     border-bottom: solid #000 16px;
@@ -97,7 +98,7 @@ button {
     z-index: -1;
 }
 
-#cart-products {
+#cart_products {
     border: 1px solid #000;
     border-radius: 0.5rem;
     background-color: #fff;
@@ -113,23 +114,23 @@ button {
     display: none; 
 }
 
-#cart-products p {
+#cart_products p {
     line-height: 2rem;
 }
 
-#cart-products p img {
+#cart_products p img {
     max-height: 2rem;
     max-width: 2rem;
 }
 
-#cart-products button {
+#cart_products button {
     border: 1px solid #000;
     margin: 0.5rem 0;
 }
 
 /* -----Profile Page----- */
 
-.profile-container {
+.profile_container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -145,7 +146,7 @@ button {
     border-radius: 1rem;
 }
 
-.profile-img {
+.profile_img {
     border-radius: 50%;
     box-shadow: 1px 1px 5px 0 #000;
     width: 10rem;
@@ -153,22 +154,22 @@ button {
     background-color: #ffffff;
 }
 
-.products-link {
+.products_link {
     font-size: 2rem;
     color: #000000;
     text-decoration: none;
     transition: all .5s;
 }
 
-.products-link:hover {
+.products_link:hover {
     transform: scale(1.2);
 }
 
-.user-products {
+.user_products {
     position: relative;
 }
 
-.user-products h1 {
+.user_products h1 {
     position: absolute;
     left: 2rem;
     top: -1.2rem;
@@ -176,7 +177,7 @@ button {
     text-shadow: 0 0 10px #000000;
 }
 
-#user-products-grid {
+#user_products_grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     background-color: tomato;
@@ -188,13 +189,13 @@ button {
 /* -----Responsive----- */
 
 @media screen and (max-width: 1000px){
-    #products-grid, #user-products-grid {
+    #products_grid, #user_products_grid {
         grid-template-columns: repeat(2, 1fr);
     }
 }
 
 @media screen and (max-width: 600px){
-    #products-grid, #user-products-grid {
+    #products_grid, #user_products_grid {
         grid-template-columns: repeat(1, 1fr);
     }
 }
