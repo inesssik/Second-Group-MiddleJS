@@ -5,9 +5,11 @@ fetch(url).then(response => {
 }).then(data => {
     for(let i = 0; i < data.products.length; i++){
         $products_grid.innerHTML += `<div class='product_item'>
-                                        <p class='product_name'>${data.products[i].productName}</p>
-                                        <p class='product_model'>${data.products[i].productModel}</p>
-                                        <p class='product_price'>${data.products[i].productPrice}</p>
+                                        <p class='product_name'>Name: ${data.products[i].productName}</p>
+                                        <p class='product_model'>Model: ${data.products[i].productModel}</p>
+                                        <p class='product_price'>Price: ${data.products[i].productPrice}</p>
+                                        <img class='product_photo' src='${data.products[i].productPhoto}' alt=''>
+                                        <button class='button' onclick='addToCart(i)'>Buy</button>
                                     </div>`
     }
 {

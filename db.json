@@ -21,20 +21,22 @@
     "productName": "Xiaomi",
     "productModel": "mi8",
     "productPrice": "39999UAH",
-    "productPhoto": "https://hotline.ua/img/tx/177/1777971035.jpg"
+    "productPhoto": "https://hotline.ua/img/tx/177/1777971035.jpg",
+    "productId": 1
   },
   {
     "productName": "MacBook",
     "productModel": "super",
     "productPrice": "109999UAH",
-    "productPhoto": "https://3dnews.ru/assets/external/illustrations/2021/10/18/1051521/MacBook_Pro16_01.jpg"
-
+    "productPhoto": "https://3dnews.ru/assets/external/illustrations/2021/10/18/1051521/MacBook_Pro16_01.jpg",
+    "productId": 2
   },
   {
     "productName": "BMW",
     "productModel": "i8",
     "productPrice": "1200000UAH",
-    "productPhoto": "https://cdn.motor1.com/images/mgl/YRlAl/s3/bmw-i8-roadster-im-test.webp"
+    "productPhoto": "https://cdn.motor1.com/images/mgl/YRlAl/s3/bmw-i8-roadster-im-test.webp",
+    "productId": 3
   }
   ]
 }
