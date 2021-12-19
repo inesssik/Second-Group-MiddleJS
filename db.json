@@ -1,19 +1,25 @@
 {
   "users":[
     {
-    "id": 1,
-    "name": "Denis",
-    "surname": "Savchenko"
+      "id": 1,
+      "name": "Denis",
+      "surname": "Savchenko",
+      "sellerPhoto": "https://klike.net/uploads/posts/2019-06/1560927382_2.jpg",
+      "balance": "100000UAH"
     },
     {
       "id": 2,
       "name": "Artem",
-      "surname": "Dzhemesiuk"
+      "surname": "Dzhemesiuk",
+      "sellerPhoto": "https://klike.net/uploads/posts/2019-06/1560927346_3.jpg",
+      "balance": "50000UAH"
     },
     {
       "id": 3,
       "name": "Ivan",
-      "surname": "Teplov"
+      "surname": "Teplov",
+      "sellerPhoto": "https://klike.net/uploads/posts/2019-06/1560927350_4.jpg",
+      "balance": "65000UAH"
     }
   ],
   "products":[
