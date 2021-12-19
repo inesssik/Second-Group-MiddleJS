@@ -32,10 +32,22 @@ header {
 }
 
 
-.product p {
+.product_item p {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: #ffffff;
-    margin: 5px 0;
+    margin: 1px 0;
+}
+
+.product_item a {
+    text-decoration: none;
+    color: #ffffff;
+    transition: 0.2s;
+    margin-bottom: 1px;
+}
+
+.product_item a:hover{
+    
+    border-bottom: 1px solid #fff;
 }
 
 .product_photo {
