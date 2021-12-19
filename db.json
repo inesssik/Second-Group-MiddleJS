@@ -32,11 +32,25 @@
     "productId": 2
   },
   {
-    "productName": "BMW",
-    "productModel": "i8",
-    "productPrice": "1200000UAH",
-    "productPhoto": "https://cdn.motor1.com/images/mgl/YRlAl/s3/bmw-i8-roadster-im-test.webp",
+    "productName": "Audi",
+    "productModel": "a5",
+    "productPrice": "3000000UAH",
+    "productPhoto": "https://autoplus.su/wp-content/uploads/2021/05/8424178750e49e76f24b870cd809150f-1170x658.jpg",
     "productId": 3
-  }
+  },
+  {
+    "productName": "Geforce RTX 3080",
+    "productModel": "Ti",
+    "productPrice": "50000UAH",
+    "productPhoto": "https://items.s1.citilink.ru/1548923_v07_b.jpg",
+    "productId": 4
+  }, 
+  {
+    "productName": "Geforce GTX 1050",
+    "productModel": "Ti",
+    "productPrice": "5000UAH",
+    "productPhoto": "https://items.s1.citilink.ru/402069_v01_b.jpg",
+    "productId": 5
+  }, 
   ]
 }
