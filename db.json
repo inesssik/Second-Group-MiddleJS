@@ -22,35 +22,40 @@
     "productModel": "mi8",
     "productPrice": "39999UAH",
     "productPhoto": "https://hotline.ua/img/tx/177/1777971035.jpg",
-    "productId": 1
+    "productId": 1,
+    "sellerId": 3
   },
   {
     "productName": "MacBook",
     "productModel": "super",
     "productPrice": "109999UAH",
     "productPhoto": "https://3dnews.ru/assets/external/illustrations/2021/10/18/1051521/MacBook_Pro16_01.jpg",
-    "productId": 2
+    "productId": 2,
+    "sellerId": 2
   },
   {
     "productName": "Audi",
     "productModel": "a5",
     "productPrice": "3000000UAH",
     "productPhoto": "https://autoplus.su/wp-content/uploads/2021/05/8424178750e49e76f24b870cd809150f-1170x658.jpg",
-    "productId": 3
+    "productId": 3,
+    "sellerId": 2
   },
   {
     "productName": "Geforce RTX 3080",
     "productModel": "Ti",
     "productPrice": "50000UAH",
     "productPhoto": "https://items.s1.citilink.ru/1548923_v07_b.jpg",
-    "productId": 4
+    "productId": 4,
+    "sellerId": 1
   }, 
   {
     "productName": "Geforce GTX 1050",
     "productModel": "Ti",
     "productPrice": "5000UAH",
     "productPhoto": "https://items.s1.citilink.ru/402069_v01_b.jpg",
-    "productId": 5
-  }, 
+    "productId": 5,
+    "sellerId": 1
+  }
   ]
 }
