@@ -35,7 +35,7 @@ productsRequest.onload = () => {
                 <h2 class="product_name">${element.productName}</h2>
                 <img class="product_photo" src="${element.productPhoto}">
                 <h2 class="product_price">Price: ${element.productPrice}</h2>
-                <h2 class="product_description">${element.productDescription}</h2>
+                <h2 class="product_description">Description: ${element.productDescription}</h2>
         `
     });
 }
