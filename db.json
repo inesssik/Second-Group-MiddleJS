@@ -35,7 +35,7 @@
   {
     "productName": "MacBook",
     "productModel": "super",
-    "productPrice": "109999UAH",
+    "productPrice": 109999,
     "productPhoto": "https://3dnews.ru/assets/external/illustrations/2021/10/18/1051521/MacBook_Pro16_01.jpg",
     "productId": 2,
     "sellerId": 2,
